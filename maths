@@ -1,0 +1,16 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Define domain
+x = np.linspace(-5, 5, 100)
+
+# Define function: y = x^2
+y = x**2
+
+plt.plot(x, y, 'b-', linewidth=2)
+plt.grid(True, alpha=0.3)
+plt.xlabel('x')
+plt.ylabel('y')
+plt.title('Function: y = x²')
+plt.show()
+
